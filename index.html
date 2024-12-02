@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,92 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
 </head>
+
 <body>
     <div class="container flex bg-black">
-        <div class="left border bg-grey">
-    <div class="home rounded m-1 p-1">
-        <div class="logo invert"> <img src="logo.svg"></div>
-        <ul>
-            <li><img class="invert" src="home.svg" alt="home">Home</li>
-            <li><img class="invert" src="search.svg" alt="search">Search</li>
-        </ul>
-    </div>
-    <div class="library bg-grey rounded m-1">
-            your library
-    </div>
+        <div class="left bg-grey">
+            <div class="home rounded m-1 p-1">
+                <div class="logo invert"> <img src="logo.svg"></div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+
+            </div>
+            <div class="library m-1 p-1 bg-grey rounded">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+                <div class="footer">
+                    <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy/">Privacy Center</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                    <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+                </div>
+            </div>
         </div>
-        <div class="right border bg-grey">
-    
+        <div class="right bg-grey">
+            <div class="header">
+                <div class="nav invert">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button>SignUp</button>
+                    <button>Login</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="50" height="50">
+                                <!-- Green Circle Background -->
+                                <circle fill="none"  cx="256" cy="256" r="256" />
+                                <!-- Centered Play Button -->
+                                <path fill="bg-black" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" 
+                                  transform="translate(105, 100) scale(0.75)" />
+                              </svg>
+                              
+                              
+                              
+                              
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Aashiqui 2</h2>
+                        <pre> Mithoon  , Ankit Tiwari
+     Jeet Gannguli</pre>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Aashiqui 2</h2>
+                        <pre> Mithoon  , Ankit Tiwari
+         Jeet Gannguli</pre>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+
     <script src="script.js"></script>
 </body>
+
 </html>
