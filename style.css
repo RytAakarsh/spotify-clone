@@ -51,7 +51,7 @@ body {
     width: 30px;
 }
 .library {
-    min-height: 80vh;
+    min-height: 220vh;
     position: relative;
     margin: 10px;
 
@@ -70,10 +70,6 @@ body {
     color: grey;
     text-decoration: none;
 }
-.right {
-    /* margin: 16px; */
-}
-
 .nav svg {
     height: 20px;
     width: 20px;
@@ -101,6 +97,9 @@ body {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    max-height: 70vh;
+    overflow: scroll;
+
 }
 .card img {
     width: 100%;
@@ -119,6 +118,18 @@ body {
     position: absolute;
     top: 168px;
     right: 17px;
-    opacity: 0;
+    opacity: 1;
     transition: all 1s ease-out;
+}
+.signupBtn {
+    background-color: #222222;
+    color: rgb(82,82,82);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signupBtn:hover {
+   font-size: 1.1rem;
+   color: white;
 }
