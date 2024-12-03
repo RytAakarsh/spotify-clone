@@ -24,6 +24,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
+    position: relative;
 }
 .home ul li{
   width: 14px;
@@ -51,7 +52,7 @@ body {
     width: 30px;
 }
 .library {
-    min-height: 220vh;
+    min-height: 70vh;
     position: relative;
     margin: 10px;
 
@@ -80,7 +81,7 @@ body {
     background-color: rgb(34,34,34);
 }
 .header > *{
-    padding: 20px;
+    padding: 10px;
 } 
 .spotifyPlaylists {
     padding: 16px;
@@ -121,15 +122,48 @@ body {
     opacity: 1;
     transition: all 1s ease-out;
 }
+.nav {
+   margin-top: 8px;
+}
+.nav svg {
+    margin: 0 4px;
+}
+.buttons > *{
+    padding: none;
+    margin: 0 12px;
+}
 .signupBtn {
     background-color: #222222;
-    color: rgb(82,82,82);
+    color: rgb(155, 149, 149);
     font-weight: bold;
     border: none;
     outline: none;
     cursor: pointer;
+    font-size: 16px;
 }
 .signupBtn:hover {
    font-size: 1.1rem;
    color: white;
+   font-size: 17px;
+}
+.loginBtn {
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+}
+.loginBtn:hover {
+    font-weight: bolder;
+    width: 81px;
+    padding: 10px 20px;
+}
+.playBar {
+    position: absolute;
+    bottom: 0;
+    background-color: #1fdf64;
+    width: 100%;
+    padding: 10px;
 }
