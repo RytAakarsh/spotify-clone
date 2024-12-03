@@ -164,6 +164,17 @@ body {
     position: absolute;
     bottom: 0;
     background-color: #1fdf64;
+    /* 635.7 width */
     width: 100%;
     padding: 10px;
+}
+.songbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.songbuttons img {
+    height: 15px;
+    width: 15px;
 }
